@@ -1,0 +1,46 @@
+extends layout
+
+block content
+  .searcher
+    #demo-1(data-zs-src='["images/b1.jpg", "images/b2.jpg", "images/b3.jpg","images/b4.jpg"]', data-zs-overlay='dots')
+      .demo-inner-content
+        // /banner-info
+        .w3-banner-head-info
+          .container
+            .banner-text
+              h2 Viaja y descubre tu pasion
+              .book-form
+                form#post-form(action='#', method='post')
+                  .col-md-3.form-time-w3layouts
+                    label
+                      i.fa.fa-map-marker(aria-hidden='true')
+                      |  Pais de procendencia
+                    select.form-control
+                      option India
+                      option Japan
+                      option America
+                      option London
+                      option Paris
+                  .col-md-3.form-date-w3-agileits
+                    label
+                      i.fa.fa-map-marker(aria-hidden='true')
+                      |  A donde viajas
+                    select.form-control
+                      option India
+                      option Japan
+                      option America
+                      option London
+                      option Paris
+                  .col-md-3.form-left-agileits-w3layouts
+                    label
+                      i.fa.fa-home(aria-hidden='true')
+                      |  ¿Cuando empieza tu viaje?
+                    select.form-control
+                      option Real estate
+                      option Real Homes
+                      option Apartments
+                      option Real Flats
+                  .col-md-3.form-left-agileits-submit
+                    input(type='submit', value='Buscar')
+                  .clearfix
+        // /banner-info

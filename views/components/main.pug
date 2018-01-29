@@ -1,0 +1,369 @@
+extends ../layout
+block content
+  .main
+    // about section
+    div
+      form(action='')
+        input(type='email', placeholder='Email')
+        input(type='text', placeholder='Password')
+        button.login-fb Inicia con Facebook
+        input(type='submit', value='Iniciar sesion')
+    //| 	{{> searcher}}
+    // // about
+    // services
+    #services.services
+      .banner-dott
+        .heading
+          h3 What we offer
+          p
+            | Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        .container
+          .services-top-grids
+            .col-md-4
+              .grid1
+                i.fa.fa-home(aria-hidden='true')
+                h4 Legal consultants
+                p
+                  | Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            .col-md-4
+              .grid1
+                i.fa.fa-building(aria-hidden='true')
+                h4 Building materials
+                p
+                  | Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            .col-md-4
+              .grid1
+                i.fa.fa-money(aria-hidden='true')
+                h4 quality roof
+                p
+                  | Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            .clearfix
+          .services-bottom-grids
+            .col-md-4
+              .grid1
+                i.fa.fa-money(aria-hidden='true')
+                h4 Heavy equipment
+                p
+                  | Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            .col-md-4
+              .grid1
+                i.fa.fa-home(aria-hidden='true')
+                h4 property strength
+                p
+                  | Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            .col-md-4
+              .grid1
+                i.fa.fa-briefcase(aria-hidden='true')
+                h4 Statistic value
+                p
+                  | Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            .clearfix
+    // //services
+    // agents
+    // //slider
+    // //agents
+    // Portfolio section
+    section#properties.portfolio-agileinfo
+      .heading
+        h3 Our properties
+        p
+          | Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+      .gallery-grids
+        .bs-example.bs-example-tabs(role='tabpanel', data-example-id='togglable-tabs')
+          #myTabContent.tab-content
+            #home.tab-pane.fade.in.active(role='tabpanel', aria-labelledby='home-tab')
+              .tab_img
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/banner.jpg', data-lb-group='1')
+                    img.img-responsive(src='images/banner.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/banner1.jpg', data-lb-group='1')
+                    img.img-responsive(src='images/banner1.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/banner2.jpg', data-lb-group='1')
+                    img.img-responsive(src='images/banner2.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/banner3.jpg', data-lb-group='1')
+                    img.img-responsive(src='images/banner3.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .clearfix  
+              .tab_img
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/banner4.jpg', data-lb-group='1')
+                    img.img-responsive(src='images/banner4.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/banner5.jpg', data-lb-group='1')
+                    img.img-responsive(src='images/banner5.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b6.jpg', data-lb-group='1')
+                    img.img-responsive(src='images/b6.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b5.jpg', data-lb-group='1')
+                    img.img-responsive(src='images/b5.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b1.jpg', data-lb-group='1')
+                    img.img-responsive(src='images/b1.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b2.jpg', data-lb-group='1')
+                    img.img-responsive(src='images/b2.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b3.jpg', data-lb-group='1')
+                    img.img-responsive(src='images/b3.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b4.jpg', data-lb-group='1')
+                    img.img-responsive(src='images/b4.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .clearfix  
+            #teach.tab-pane.fade(role='tabpanel', aria-labelledby='teach-tab')
+              .tab_img
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b1.jpg', data-lb-group='2')
+                    img.img-responsive.zoom-img(src='images/b1.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b2.jpg', data-lb-group='2')
+                    img.img-responsive.zoom-img(src='images/b2.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b3.jpg', data-lb-group='2')
+                    img.img-responsive.zoom-img(src='images/b3.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .clearfix  
+            #train.tab-pane.fade(role='tabpanel', aria-labelledby='train-tab')
+              .tab_img
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b4.jpg', data-lb-group='3')
+                    img.img-responsive.zoom-img(src='images/b4.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b2.jpg', data-lb-group='3')
+                    img.img-responsive.zoom-img(src='images/b2.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .clearfix  
+            #learn.tab-pane.fade(role='tabpanel', aria-labelledby='learn-tab')
+              .tab_img
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b1.jpg', data-lb-group='4')
+                    img.img-responsive.zoom-img(src='images/b1.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b2.jpg', data-lb-group='4')
+                    img.img-responsive.zoom-img(src='images/b2.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b3.jpg', data-lb-group='4')
+                    img.img-responsive.zoom-img(src='images/b3.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .clearfix  
+            #award.tab-pane.fade(role='tabpanel', aria-labelledby='award-tab')
+              .tab_img
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b4.jpg', data-lb-group='5')
+                    img.img-responsive.zoom-img(src='images/b4.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b5.jpg', data-lb-group='5')
+                    img.img-responsive.zoom-img(src='images/b5.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b1.jpg', data-lb-group='5')
+                    img.img-responsive.zoom-img(src='images/b1.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .col-md-3.col-sm-6.col-xs-6.portfolio-grids(data-aos='zoom-in')
+                  a.b-link-stripe.b-animate-go.lightninBox(href='images/b2.jpg', data-lb-group='5')
+                    img.img-responsive.zoom-img(src='images/b2.jpg', alt='w3ls')
+                    .b-wrapper
+                      i.fa.fa-search-plus(aria-hidden='true')
+                      h5 Flat
+                      p Neque porro quisquam est.
+                .clearfix  
+    // /Portfolio section
+    // //Testimonials
+    // faq's
+    .faq
+      .container
+        .about-w3ls-row
+          .heading
+            h3 Faq's
+          .col-md-4.about-left
+            .about-w3layouts-pic
+              img(src='images/faq.png', alt='')
+          .col-md-8.about-right
+            // history
+            #accordion.panel-group(role='tablist', aria-multiselectable='true')
+              .panel.panel-default
+                #headingOne.panel-heading(role='tab')
+                  h4.panel-title.asd
+                    a.pa_italic(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                      span.glyphicon.glyphicon-chevron-down(aria-hidden='true')
+                      |  How to Start your business?
+                #collapseOne.panel-collapse.collapse.in(role='tabpanel', aria-labelledby='headingOne')
+                  .panel-body.panel_text
+                    | Sed lectus tellus sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget leo sodales adipiscing.
+              .panel.panel-default
+                #headingTwo.panel-heading(role='tab')
+                  h4.panel-title.asd
+                    a.pa_italic.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                      span.glyphicon.glyphicon-chevron-down(aria-hidden='true')
+                      |  How to Plan your future with buildings?
+                #collapseTwo.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingTwo')
+                  .panel-body.panel_text
+                    | Feugiat porttitor nulla Sed lectus tellus sodales id elit a,  Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget leo sodales adipiscing.
+              .panel.panel-default
+                #headingThree.panel-heading(role='tab')
+                  h4.panel-title.asd
+                    a.pa_italic.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                      span.glyphicon.glyphicon-chevron-down(aria-hidden='true')
+                      |  Why we Create real estate?
+                #collapseThree.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingThree')
+                  .panel-body.panel_text
+                    | Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget leo sodales adipiscing. Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia.
+              .panel.panel-default
+                #headingFour.panel-heading(role='tab')
+                  h4.panel-title.asd
+                    a.pa_italic.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseFour', aria-expanded='false', aria-controls='collapseFour')
+                      span.glyphicon.glyphicon-chevron-down(aria-hidden='true')
+                      |  why we choose to Enjoy housing boards ?
+                #collapseFour.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingFour')
+                  .panel-body.panel_text
+                    | Sed lectus tellus, sodales id elit a, feugiat porttitor nulla. Sed porta magna vitae nisl vulputate lacinia. Morbi malesuada sollicitudin tortor, vitae pharetra nunc lacinia eget leo sodales adipiscing.
+            // //history
+          .clearfix  
+    // //faq's
+    // contact
+    #contact.mail
+      .mail-grid1
+        .container
+          .heading
+            h3 Contact us
+          .col-md-4.mail-agileits-w3layouts
+            i.glyphicon.glyphicon-earphone(aria-hidden='true')
+            .contact-right
+              p Phone
+              span +1 (010)244-22-55
+          .col-md-4.mail-agileits-w3layouts
+            i.glyphicon.glyphicon-envelope(aria-hidden='true')
+            .contact-right
+              p Email
+              a(href='mailto:info@example.com') info@example.com
+          .col-md-4.mail-agileits-w3layouts
+            i.glyphicon.glyphicon-map-marker(aria-hidden='true')
+            .contact-right
+              p Address
+              span 4th corner, 123 Finland, California, US.
+          .clearfix
+      .map
+        iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26359195.17562375!2d-113.7156245614499!3d36.2473834534249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1452332634941')
+        .mail-grid1-form
+          h3.tittle-w3
+            span Send a 
+            | Message
+          form(action='#', method='post')
+            input(type='text', name='Name', placeholder='Full Name', required='')
+            input(type='email', name='Email', placeholder='Email', required='')
+            textarea(name='Message', placeholder='Type Your Text Here....', required='')
+            input(type='submit', value='Submit')
+      .clearfix
+    // //contact
+    // footer
+    .footer
+      .container
+        .social
+          ul
+            li
+              a(href='#')
+                i.fa.fa-facebook
+            li
+              a(href='#')
+                i.fa.fa-twitter
+            li
+              a(href='#')
+                i.fa.fa-google-plus
+            li
+              a(href='#')
+                i.fa.fa-dribbble
+        .border
+        .agileits-w3layouts-copyright
+          p
+            | © 2017 Flat. All rights reserved | Design by 
+            a(href='http://w3layouts.com/') W3layouts
+    // //footer
