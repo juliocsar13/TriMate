@@ -16,15 +16,14 @@
     border-color: #c7c7c7 !important ;
 }
 input.lys-location__input{
-width: 100%;
+    width: 100%;
     border: 1px solid #c4c4c4;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     color: #484848;
     padding: 20px;
-    background-repeat: no-repeat;
-    background-image: url(https://a0.muscache.com/airbnb/static/list_your_space/pin-94cfbd8….png);
+    /*background-repeat: no-repeat;*/
     background-position: 20px;
     padding-left: 48px;
 }

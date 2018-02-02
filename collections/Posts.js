@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
-const Schema  = mongoose.Schema();
-
+const Schema  = mongoose.Schema;
 
 const schemaPost = new Schema({
     name: {
@@ -11,15 +10,15 @@ const schemaPost = new Schema({
     },
     createdAt: {
         type: Date,
-        defaultValue: new Date()
+        default: Date.now
+
     },
     destination: {
-        type: String,
-        optional: false
+        type: String
     },
     schedule: {
-        type: Date,
-        optional: false
+        type: String
     }
 })
-mongoose.model('Post', schemaPost);
+const Post = mongoose.model('Post', schemaPost);
+module.exports = Post
